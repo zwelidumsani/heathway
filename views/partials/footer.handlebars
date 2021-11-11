@@ -1,0 +1,96 @@
+  <!-- ======= Footer ======= -->
+  <footer id="footer", style = "border-top: 2px solid #40BBFD;">
+     <!--<script src="https://apps.elfsight.com/p/platform.js" defer></script>-->
+     <div class="elfsight-app-abdf666f-7fe0-4c8f-a1ac-214f787e6932"></div>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3><span style = "color:#40BBFD">Heathway</span> <span style = "color: yellow">Investments</span></h3>
+			<!--<a href="/" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            <p>
+			  P. O. Box 1891 <br>
+              Mancishane Street <br>
+              Eswatini Manzini, M200<br>
+              <br><br>
+              <strong>Phone:</strong> +268 7806 1010<br>
+			  <strong>Tel:</strong> +268 2505 3895<br>
+			  <strong>Electrical Company Brunches: <br></strong> Manzini & Siphofaneni<br>
+              <strong>Email:</strong> heathwayinvestments2@gmail.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/services">Services</a></li>
+			  <li><i class="bx bx-chevron-right"></i> <a href="/portfolio">Portfolio</a></li>
+			  <li><i class="bx bx-chevron-right"></i> <a href="">Careers <span style= "background:red; border-radius: 5px; padding: 3px"> No vacancies</span></a></li>
+			  <li><i class="bx bx-chevron-right"></i> <a href="/faq">FAQ</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="/services">Security Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/services">Electrical Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/services">Logistics Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/services">Brick Supplies</a></li>
+			  <li><i class="bx bx-chevron-right"></i> <a href="/quoter"><span style= "background: #028DF4; border-radius: 5px; padding: 3px"> Get A Quote NOW!</span></a></li>
+			  
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>Get in touch and stay updated about new stock and services offered by our organization.</p>
+			    {{#if subscriptionSuccess}} 
+					 <div class = "alert alert-success" alert-dismissable style = "border-radius:4px;>
+					     <p class= "pull-right"><button type = "button" class = "close" data-dismiss = "alert" aria-hidden = "true"></button>
+					     <i class = "bx bx-message-check"></i>  Email Sent.</p>
+					 </div>	
+			     {{/if}}
+			   
+				 {{#if subscriptionError}} 
+				     <div class = "alert alert-danger" alert-dismissable style = "border-radius:4px;>
+						 <p class= "pull-right"><button type = "button" class = "close" data-dismiss = "alert" aria-hidden = "true"></button>
+						 <i class = "bx bxs-message-error"></i>  Could Not Subscribe.</p>
+					 </div>	
+				 {{/if}}
+            <form action="/subscribe" method="post">
+              <input type="email" name="email"  placeholder = "Your email address" required>
+			  <input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+	
+
+    <div class="container d-md-flex py-4">
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>HeathWay Investments</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/company-free-html-bootstrap-template/ -->
+          Developed & Maintained By <a href="http://eswatiniherbalnutrition.shop/"  style = "color:red"> Z.D.D. +268 78127625</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="https://twitter.com/" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.linkedin.com/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a> 
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+  	 
+ <!-- <a href="" class="back-to-top" style = "margin-bottom: 100px"><i class="icofont-simple-up"></i></a>-->

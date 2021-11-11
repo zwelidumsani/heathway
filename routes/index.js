@@ -50,7 +50,7 @@ router.get('/quoter', function(req, res, next) {
 
 
 router.get('/faq', function(req, res, next) {
-  res.render('faq.handlebars', {breadcrum: "FAQs", brunch: "Manzini & Siphofaneni", faq: "active"});
+  res.render('faq.handlebars', {breadcrumb: "FAQs", brunch: "Manzini & Siphofaneni", faq: "active"});
 });
 
 
